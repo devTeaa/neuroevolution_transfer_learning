@@ -1,0 +1,59 @@
+Model: va-densenet Optimizer: Adam LR: 0.001 Weight Decay: 0.0001 Steps Decay: 20 
+
+Epoch: 1 
+train epoch 1: acc 0.42 loss 1.5348 with data size 243 
+val epoch 1: acc 0.47 loss 1.4793 with data size 80 
+==============================================
+Epoch: 2 
+train epoch 2: acc 0.52 loss 1.2861 with data size 243 
+val epoch 2: acc 0.21 loss 1.7062 with data size 80 
+==============================================
+Epoch: 3 
+train epoch 3: acc 0.57 loss 1.1082 with data size 243 
+val epoch 3: acc 0.57 loss 1.1855 with data size 80 
+==============================================
+Epoch: 4 
+train epoch 4: acc 0.62 loss 0.9816 with data size 243 
+val epoch 4: acc 0.51 loss 1.1126 with data size 80 
+==============================================
+Epoch: 5 
+train epoch 5: acc 0.69 loss 0.8435 with data size 243 
+val epoch 5: acc 0.64 loss 1.0274 with data size 80 
+==============================================
+Epoch: 6 
+train epoch 6: acc 0.68 loss 0.8612 with data size 243 
+val epoch 6: acc 0.50 loss 1.3945 with data size 80 
+==============================================
+Epoch: 7 
+train epoch 7: acc 0.70 loss 0.8025 with data size 243 
+val epoch 7: acc 0.62 loss 1.2000 with data size 80 
+==============================================
+Epoch: 8 
+train epoch 8: acc 0.68 loss 0.8214 with data size 243 
+val epoch 8: acc 0.62 loss 1.0212 with data size 80 
+==============================================
+Epoch: 9 
+train epoch 9: acc 0.74 loss 0.7353 with data size 243 
+val epoch 9: acc 0.57 loss 0.9994 with data size 80 
+==============================================
+Epoch: 10 
+train epoch 10: acc 0.74 loss 0.6865 with data size 243 
+val epoch 10: acc 0.59 loss 1.0246 with data size 80 
+==============================================
+Epoch: 11 
+train epoch 11: acc 0.70 loss 0.7616 with data size 243 
+val epoch 11: acc 0.60 loss 0.9310 with data size 80 
+==============================================
+Epoch: 12 
+train epoch 12: acc 0.74 loss 0.6811 with data size 243 
+val epoch 12: acc 0.41 loss 1.3589 with data size 80 
+==============================================
+Epoch: 13 
+train epoch 13: acc 0.72 loss 0.7429 with data size 243 
+val epoch 13: acc 0.40 loss 1.5869 with data size 80 
+==============================================
+Epoch: 14 
+train epoch 14: acc 0.75 loss 0.6736 with data size 243 
+val epoch 14: acc 0.56 loss 1.1039 with data size 80 
+==============================================
+Epoch: 15 

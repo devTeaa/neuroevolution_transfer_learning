@@ -1,0 +1,402 @@
+Model: va-densenet Optimizer: Adam LR: 0.001 Weight Decay: 0.0001 Steps Decay: 20 
+
+Epoch: 1 
+train epoch 1: acc 0.46 loss 1.5108 with data size 243 
+val epoch 1: acc 0.42 loss 1.7742 with data size 80 
+==============================================
+Epoch: 2 
+train epoch 2: acc 0.52 loss 1.2799 with data size 243 
+val epoch 2: acc 0.51 loss 1.2209 with data size 80 
+==============================================
+Epoch: 3 
+train epoch 3: acc 0.59 loss 1.1459 with data size 243 
+val epoch 3: acc 0.45 loss 1.4108 with data size 80 
+==============================================
+Epoch: 4 
+train epoch 4: acc 0.61 loss 1.0404 with data size 243 
+val epoch 4: acc 0.45 loss 1.2409 with data size 80 
+==============================================
+Epoch: 5 
+train epoch 5: acc 0.67 loss 0.9207 with data size 243 
+val epoch 5: acc 0.54 loss 1.1650 with data size 80 
+==============================================
+Epoch: 6 
+train epoch 6: acc 0.67 loss 0.8757 with data size 243 
+val epoch 6: acc 0.55 loss 1.1306 with data size 80 
+==============================================
+Epoch: 7 
+train epoch 7: acc 0.68 loss 0.8342 with data size 243 
+val epoch 7: acc 0.56 loss 1.1131 with data size 80 
+==============================================
+Epoch: 8 
+train epoch 8: acc 0.72 loss 0.7572 with data size 243 
+val epoch 8: acc 0.54 loss 1.2209 with data size 80 
+==============================================
+Epoch: 9 
+train epoch 9: acc 0.68 loss 0.8200 with data size 243 
+val epoch 9: acc 0.60 loss 1.0839 with data size 80 
+==============================================
+Epoch: 10 
+train epoch 10: acc 0.74 loss 0.7151 with data size 243 
+val epoch 10: acc 0.59 loss 1.2267 with data size 80 
+==============================================
+Epoch: 11 
+train epoch 11: acc 0.72 loss 0.7711 with data size 243 
+val epoch 11: acc 0.57 loss 1.2513 with data size 80 
+==============================================
+Epoch: 12 
+train epoch 12: acc 0.77 loss 0.6521 with data size 243 
+val epoch 12: acc 0.56 loss 1.1211 with data size 80 
+==============================================
+Epoch: 13 
+train epoch 13: acc 0.72 loss 0.7344 with data size 243 
+val epoch 13: acc 0.55 loss 1.0825 with data size 80 
+==============================================
+Epoch: 14 
+train epoch 14: acc 0.73 loss 0.6708 with data size 243 
+val epoch 14: acc 0.55 loss 1.0352 with data size 80 
+==============================================
+Epoch: 15 
+train epoch 15: acc 0.73 loss 0.6890 with data size 243 
+val epoch 15: acc 0.56 loss 1.1304 with data size 80 
+==============================================
+Epoch: 16 
+train epoch 16: acc 0.75 loss 0.6429 with data size 243 
+val epoch 16: acc 0.30 loss 1.5497 with data size 80 
+==============================================
+Epoch: 17 
+train epoch 17: acc 0.73 loss 0.6947 with data size 243 
+val epoch 17: acc 0.57 loss 1.2560 with data size 80 
+==============================================
+Epoch: 18 
+train epoch 18: acc 0.81 loss 0.5512 with data size 243 
+val epoch 18: acc 0.60 loss 1.1623 with data size 80 
+==============================================
+Epoch: 19 
+train epoch 19: acc 0.78 loss 0.5772 with data size 243 
+val epoch 19: acc 0.59 loss 1.1767 with data size 80 
+==============================================
+Epoch: 20 
+created new Adam optimizer with LR: 0.0010000000train epoch 20: acc 0.77 loss 0.6072 with data size 243 
+val epoch 20: acc 0.56 loss 1.2421 with data size 80 
+==============================================
+Epoch: 21 
+train epoch 21: acc 0.77 loss 0.5723 with data size 243 
+val epoch 21: acc 0.59 loss 1.1439 with data size 80 
+==============================================
+Epoch: 22 
+train epoch 22: acc 0.79 loss 0.5551 with data size 243 
+val epoch 22: acc 0.56 loss 1.2030 with data size 80 
+==============================================
+Epoch: 23 
+train epoch 23: acc 0.81 loss 0.5308 with data size 243 
+val epoch 23: acc 0.54 loss 1.1646 with data size 80 
+==============================================
+Epoch: 24 
+train epoch 24: acc 0.81 loss 0.5206 with data size 243 
+val epoch 24: acc 0.62 loss 1.1427 with data size 80 
+==============================================
+Epoch: 25 
+train epoch 25: acc 0.81 loss 0.5429 with data size 243 
+val epoch 25: acc 0.62 loss 1.0461 with data size 80 
+==============================================
+Epoch: 26 
+train epoch 26: acc 0.84 loss 0.4890 with data size 243 
+val epoch 26: acc 0.56 loss 1.0618 with data size 80 
+==============================================
+Epoch: 27 
+train epoch 27: acc 0.83 loss 0.4906 with data size 243 
+val epoch 27: acc 0.60 loss 1.0800 with data size 80 
+==============================================
+Epoch: 28 
+train epoch 28: acc 0.81 loss 0.5088 with data size 243 
+val epoch 28: acc 0.54 loss 1.1284 with data size 80 
+==============================================
+Epoch: 29 
+train epoch 29: acc 0.81 loss 0.5291 with data size 243 
+val epoch 29: acc 0.57 loss 1.1984 with data size 80 
+==============================================
+Epoch: 30 
+train epoch 30: acc 0.83 loss 0.4776 with data size 243 
+val epoch 30: acc 0.59 loss 1.1862 with data size 80 
+==============================================
+Epoch: 31 
+train epoch 31: acc 0.80 loss 0.5131 with data size 243 
+val epoch 31: acc 0.55 loss 1.1864 with data size 80 
+==============================================
+Epoch: 32 
+train epoch 32: acc 0.79 loss 0.5710 with data size 243 
+val epoch 32: acc 0.57 loss 1.1352 with data size 80 
+==============================================
+Epoch: 33 
+train epoch 33: acc 0.82 loss 0.5047 with data size 243 
+val epoch 33: acc 0.60 loss 1.0921 with data size 80 
+==============================================
+Epoch: 34 
+train epoch 34: acc 0.82 loss 0.5205 with data size 243 
+val epoch 34: acc 0.53 loss 1.1292 with data size 80 
+==============================================
+Epoch: 35 
+train epoch 35: acc 0.80 loss 0.5425 with data size 243 
+val epoch 35: acc 0.59 loss 1.1003 with data size 80 
+==============================================
+Epoch: 36 
+train epoch 36: acc 0.82 loss 0.5203 with data size 243 
+val epoch 36: acc 0.53 loss 1.1257 with data size 80 
+==============================================
+Epoch: 37 
+train epoch 37: acc 0.82 loss 0.5255 with data size 243 
+val epoch 37: acc 0.53 loss 1.1870 with data size 80 
+==============================================
+Epoch: 38 
+train epoch 38: acc 0.85 loss 0.4497 with data size 243 
+val epoch 38: acc 0.55 loss 1.1113 with data size 80 
+==============================================
+Epoch: 39 
+train epoch 39: acc 0.83 loss 0.4753 with data size 243 
+val epoch 39: acc 0.51 loss 1.1423 with data size 80 
+==============================================
+Epoch: 40 
+created new Adam optimizer with LR: 0.0001000000train epoch 40: acc 0.81 loss 0.5330 with data size 243 
+val epoch 40: acc 0.55 loss 1.1069 with data size 80 
+==============================================
+Epoch: 41 
+train epoch 41: acc 0.83 loss 0.4999 with data size 243 
+val epoch 41: acc 0.45 loss 1.2078 with data size 80 
+==============================================
+Epoch: 42 
+train epoch 42: acc 0.80 loss 0.5093 with data size 243 
+val epoch 42: acc 0.59 loss 1.1184 with data size 80 
+==============================================
+Epoch: 43 
+train epoch 43: acc 0.83 loss 0.4997 with data size 243 
+val epoch 43: acc 0.59 loss 1.1517 with data size 80 
+==============================================
+Epoch: 44 
+train epoch 44: acc 0.84 loss 0.4764 with data size 243 
+val epoch 44: acc 0.61 loss 1.3951 with data size 80 
+==============================================
+Epoch: 45 
+train epoch 45: acc 0.84 loss 0.4706 with data size 243 
+val epoch 45: acc 0.51 loss 1.1201 with data size 80 
+==============================================
+Epoch: 46 
+train epoch 46: acc 0.82 loss 0.5211 with data size 243 
+val epoch 46: acc 0.61 loss 1.0919 with data size 80 
+==============================================
+Epoch: 47 
+train epoch 47: acc 0.82 loss 0.4972 with data size 243 
+val epoch 47: acc 0.59 loss 1.1097 with data size 80 
+==============================================
+Epoch: 48 
+train epoch 48: acc 0.84 loss 0.4793 with data size 243 
+val epoch 48: acc 0.57 loss 1.0586 with data size 80 
+==============================================
+Epoch: 49 
+train epoch 49: acc 0.80 loss 0.5328 with data size 243 
+val epoch 49: acc 0.56 loss 1.2245 with data size 80 
+==============================================
+Epoch: 50 
+train epoch 50: acc 0.83 loss 0.4824 with data size 243 
+val epoch 50: acc 0.55 loss 1.0254 with data size 80 
+==============================================
+Epoch: 51 
+train epoch 51: acc 0.83 loss 0.4875 with data size 243 
+val epoch 51: acc 0.50 loss 1.1788 with data size 80 
+==============================================
+Epoch: 52 
+train epoch 52: acc 0.83 loss 0.4820 with data size 243 
+val epoch 52: acc 0.55 loss 1.0818 with data size 80 
+==============================================
+Epoch: 53 
+train epoch 53: acc 0.81 loss 0.5198 with data size 243 
+val epoch 53: acc 0.57 loss 1.1875 with data size 80 
+==============================================
+Epoch: 54 
+train epoch 54: acc 0.84 loss 0.4651 with data size 243 
+val epoch 54: acc 0.51 loss 1.1617 with data size 80 
+==============================================
+Epoch: 55 
+train epoch 55: acc 0.87 loss 0.4263 with data size 243 
+val epoch 55: acc 0.59 loss 1.0719 with data size 80 
+==============================================
+Epoch: 56 
+train epoch 56: acc 0.84 loss 0.4363 with data size 243 
+val epoch 56: acc 0.57 loss 1.1200 with data size 80 
+==============================================
+Epoch: 57 
+train epoch 57: acc 0.83 loss 0.4573 with data size 243 
+val epoch 57: acc 0.55 loss 1.1343 with data size 80 
+==============================================
+Epoch: 58 
+train epoch 58: acc 0.84 loss 0.4614 with data size 243 
+val epoch 58: acc 0.57 loss 1.0162 with data size 80 
+==============================================
+Epoch: 59 
+train epoch 59: acc 0.84 loss 0.4629 with data size 243 
+val epoch 59: acc 0.49 loss 1.3856 with data size 80 
+==============================================
+Epoch: 60 
+created new Adam optimizer with LR: 0.0000100000train epoch 60: acc 0.81 loss 0.5141 with data size 243 
+val epoch 60: acc 0.62 loss 1.1281 with data size 80 
+==============================================
+Epoch: 61 
+train epoch 61: acc 0.83 loss 0.4840 with data size 243 
+val epoch 61: acc 0.59 loss 1.1033 with data size 80 
+==============================================
+Epoch: 62 
+train epoch 62: acc 0.82 loss 0.5069 with data size 243 
+val epoch 62: acc 0.46 loss 1.3288 with data size 80 
+==============================================
+Epoch: 63 
+train epoch 63: acc 0.84 loss 0.4694 with data size 243 
+val epoch 63: acc 0.56 loss 1.1254 with data size 80 
+==============================================
+Epoch: 64 
+train epoch 64: acc 0.85 loss 0.4292 with data size 243 
+val epoch 64: acc 0.57 loss 1.0859 with data size 80 
+==============================================
+Epoch: 65 
+train epoch 65: acc 0.83 loss 0.4983 with data size 243 
+val epoch 65: acc 0.59 loss 1.0903 with data size 80 
+==============================================
+Epoch: 66 
+train epoch 66: acc 0.84 loss 0.4624 with data size 243 
+val epoch 66: acc 0.59 loss 1.1496 with data size 80 
+==============================================
+Epoch: 67 
+train epoch 67: acc 0.84 loss 0.4840 with data size 243 
+val epoch 67: acc 0.61 loss 1.1374 with data size 80 
+==============================================
+Epoch: 68 
+train epoch 68: acc 0.85 loss 0.4474 with data size 243 
+val epoch 68: acc 0.61 loss 1.1379 with data size 80 
+==============================================
+Epoch: 69 
+train epoch 69: acc 0.80 loss 0.5238 with data size 243 
+val epoch 69: acc 0.60 loss 1.0503 with data size 80 
+==============================================
+Epoch: 70 
+train epoch 70: acc 0.83 loss 0.5008 with data size 243 
+val epoch 70: acc 0.54 loss 1.2033 with data size 80 
+==============================================
+Epoch: 71 
+train epoch 71: acc 0.83 loss 0.4773 with data size 243 
+val epoch 71: acc 0.55 loss 1.3558 with data size 80 
+==============================================
+Epoch: 72 
+train epoch 72: acc 0.81 loss 0.5198 with data size 243 
+val epoch 72: acc 0.59 loss 1.0949 with data size 80 
+==============================================
+Epoch: 73 
+train epoch 73: acc 0.81 loss 0.5502 with data size 243 
+val epoch 73: acc 0.53 loss 1.1418 with data size 80 
+==============================================
+Epoch: 74 
+train epoch 74: acc 0.83 loss 0.4639 with data size 243 
+val epoch 74: acc 0.56 loss 1.2266 with data size 80 
+==============================================
+Epoch: 75 
+train epoch 75: acc 0.83 loss 0.4740 with data size 243 
+val epoch 75: acc 0.49 loss 1.1869 with data size 80 
+==============================================
+Epoch: 76 
+train epoch 76: acc 0.84 loss 0.4494 with data size 243 
+val epoch 76: acc 0.60 loss 1.0606 with data size 80 
+==============================================
+Epoch: 77 
+train epoch 77: acc 0.84 loss 0.4938 with data size 243 
+val epoch 77: acc 0.64 loss 1.0777 with data size 80 
+==============================================
+Epoch: 78 
+train epoch 78: acc 0.81 loss 0.5086 with data size 243 
+val epoch 78: acc 0.56 loss 1.2284 with data size 80 
+==============================================
+Epoch: 79 
+train epoch 79: acc 0.83 loss 0.4819 with data size 243 
+val epoch 79: acc 0.57 loss 1.1726 with data size 80 
+==============================================
+Epoch: 80 
+created new Adam optimizer with LR: 0.0000010000train epoch 80: acc 0.83 loss 0.4840 with data size 243 
+val epoch 80: acc 0.53 loss 1.2230 with data size 80 
+==============================================
+Epoch: 81 
+train epoch 81: acc 0.85 loss 0.4426 with data size 243 
+val epoch 81: acc 0.57 loss 1.2559 with data size 80 
+==============================================
+Epoch: 82 
+train epoch 82: acc 0.84 loss 0.4775 with data size 243 
+val epoch 82: acc 0.59 loss 1.0776 with data size 80 
+==============================================
+Epoch: 83 
+train epoch 83: acc 0.85 loss 0.4538 with data size 243 
+val epoch 83: acc 0.60 loss 1.1075 with data size 80 
+==============================================
+Epoch: 84 
+train epoch 84: acc 0.83 loss 0.4781 with data size 243 
+val epoch 84: acc 0.62 loss 1.1591 with data size 80 
+==============================================
+Epoch: 85 
+train epoch 85: acc 0.83 loss 0.4740 with data size 243 
+val epoch 85: acc 0.62 loss 1.2259 with data size 80 
+==============================================
+Epoch: 86 
+train epoch 86: acc 0.85 loss 0.4569 with data size 243 
+val epoch 86: acc 0.54 loss 1.2484 with data size 80 
+==============================================
+Epoch: 87 
+train epoch 87: acc 0.85 loss 0.4667 with data size 243 
+val epoch 87: acc 0.51 loss 1.2881 with data size 80 
+==============================================
+Epoch: 88 
+train epoch 88: acc 0.81 loss 0.4970 with data size 243 
+val epoch 88: acc 0.59 loss 1.2233 with data size 80 
+==============================================
+Epoch: 89 
+train epoch 89: acc 0.82 loss 0.5094 with data size 243 
+val epoch 89: acc 0.55 loss 1.2372 with data size 80 
+==============================================
+Epoch: 90 
+train epoch 90: acc 0.84 loss 0.4539 with data size 243 
+val epoch 90: acc 0.59 loss 1.1501 with data size 80 
+==============================================
+Epoch: 91 
+train epoch 91: acc 0.84 loss 0.4578 with data size 243 
+val epoch 91: acc 0.54 loss 1.0823 with data size 80 
+==============================================
+Epoch: 92 
+train epoch 92: acc 0.84 loss 0.4591 with data size 243 
+val epoch 92: acc 0.51 loss 1.0930 with data size 80 
+==============================================
+Epoch: 93 
+train epoch 93: acc 0.86 loss 0.4546 with data size 243 
+val epoch 93: acc 0.53 loss 1.0573 with data size 80 
+==============================================
+Epoch: 94 
+train epoch 94: acc 0.84 loss 0.4597 with data size 243 
+val epoch 94: acc 0.60 loss 1.2067 with data size 80 
+==============================================
+Epoch: 95 
+train epoch 95: acc 0.83 loss 0.4979 with data size 243 
+val epoch 95: acc 0.51 loss 1.1769 with data size 80 
+==============================================
+Epoch: 96 
+train epoch 96: acc 0.82 loss 0.4914 with data size 243 
+val epoch 96: acc 0.59 loss 1.1863 with data size 80 
+==============================================
+Epoch: 97 
+train epoch 97: acc 0.83 loss 0.4941 with data size 243 
+val epoch 97: acc 0.60 loss 1.1825 with data size 80 
+==============================================
+Epoch: 98 
+train epoch 98: acc 0.84 loss 0.4608 with data size 243 
+val epoch 98: acc 0.50 loss 1.2556 with data size 80 
+==============================================
+Epoch: 99 
+train epoch 99: acc 0.84 loss 0.4782 with data size 243 
+val epoch 99: acc 0.57 loss 1.0975 with data size 80 
+==============================================
+Epoch: 100 
+created new Adam optimizer with LR: 0.0000001000train epoch 100: acc 0.84 loss 0.4665 with data size 243 
+val epoch 100: acc 0.59 loss 1.0727 with data size 80 
+==============================================
