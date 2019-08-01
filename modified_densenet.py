@@ -729,15 +729,15 @@ class DenseNetEvery(nn.Module):
         db4 = attention4 + db4
 
 # def interpolate(x, multiplier=2, fixed_size=0, divider=2, absolute_channel = 0, mode='nearest'):
-        global_attention = torch.cat((interpolate(attention1, fixed_size = 7, absolute_channel = 256),
-                                      interpolate(attention2, fixed_size = 7, absolute_channel = 512),
-                                      interpolate(attention3, fixed_size = 7, absolute_channel = 1024),
-                                      attention4
-                                     ), dim = 1)
-        global_attention = self.everyconv2dblock1(global_attention)
+#         global_attention = torch.cat((interpolate(attention1, fixed_size = 7, absolute_channel = 256),
+#                                       interpolate(attention2, fixed_size = 7, absolute_channel = 512),
+#                                       interpolate(attention3, fixed_size = 7, absolute_channel = 1024),
+#                                       attention4
+#                                      ), dim = 1)
+#         global_attention = self.everyconv2dblock1(global_attention)
         # global_attention = self.softmax(global_attention)
 
-        db4 = db4 + global_attention
+#        db4 = db4 + global_attention
 
         db4 = F.relu(db4, inplace=True)
         db4 = F.avg_pool2d(db4, kernel_size=7, stride=1).view(x.size(0), -1)
