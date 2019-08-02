@@ -50,7 +50,7 @@ DISTILLATE_WITH = ''
 # alexnet, va_alexnet, reva_alexnet, fp_alexnet, startva_alexnet,
 # densenet, va_densenet, reva_densenet, fp_densenet, start_densenet, every_densenet, sedensenet, triplelossdensenet
 # resnet, VGG, VGG_Bn
-for MODEL_NAME in [fp_densenet, fp_densenet]:
+for MODEL_NAME in [every_densenet, every_densenet]:
     for OPTIMIZERS in [SGD]:
         for FREEZE in [False]:
             print("============================================")
