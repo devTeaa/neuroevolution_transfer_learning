@@ -41,8 +41,8 @@ PRETRAINED = True
 
 # CHECKPOINT_TIMESTAMP = '1560599355'
 CHECKPOINT_TIMESTAMP = ''
-CHECKPOINT_TEST = '1563112018'
-CHECKPOINT_TEST_TARGET = '1563032942'
+CHECKPOINT_TEST = '1564583958'
+CHECKPOINT_TEST_TARGET = '1564680117'
 
 # DISTILLATE_WITH = '1560599355'
 DISTILLATE_WITH = ''
@@ -50,24 +50,26 @@ DISTILLATE_WITH = ''
 # alexnet, va_alexnet, reva_alexnet, fp_alexnet, startva_alexnet,
 # densenet, va_densenet, reva_densenet, fp_densenet, start_densenet, every_densenet, sedensenet, triplelossdensenet
 # resnet, VGG, VGG_Bn
-for MODEL_NAME in [every_densenet, every_densenet]:
-    for OPTIMIZERS in [SGD]:
-        for FREEZE in [False]:
-            print("============================================")
-            print(f"LEARNING_RATE = {LEARNING_RATE}")
-            print(f"LEARNING_RATE_DECAY_STEPS = {LEARNING_RATE_DECAY_STEPS}")
-            print(f"MODEL_NAME = {MODEL_NAME}")
-            print(f"PRETRAINED = {PRETRAINED}")
-            print(f"FREEZE = {FREEZE}")
-            print(f"EPOCHS = {EPOCHS}")
-            print(f"BATCH_SIZE = {BATCH_SIZE}")
-            print(f"N_LABELS = {N_LABELS}")
-            print(f"OPTIMIZERS = {OPTIMIZERS}")
-            print(f"CHECKPOINT_TIMESTAMP = {CHECKPOINT_TIMESTAMP}")
-            print(f"CHECKPOINT_TEST = {CHECKPOINT_TEST}")
-            print(f"CHECKPOINT_TEST_TARGET = {CHECKPOINT_TEST_TARGET}")
-            print("============================================")
+N.test_cnn(densenet, every_densenet, BATCH_SIZE, N_LABELS, PATH_TO_IMAGES, DEBUG_MODE, CHECKPOINT_TEST, CHECKPOINT_TEST_TARGET)
 
-            # N.test_cnn(every_densenet, densenet, BATCH_SIZE, N_LABELS, PATH_TO_IMAGES, DEBUG_MODE, CHECKPOINT_TEST, CHECKPOINT_TEST_TARGET)
+# for MODEL_NAME in [every_densenet]:
+    # for OPTIMIZERS in [SGD]:
+        # for FREEZE in [False]:
+            # print("============================================")
+            # print(f"LEARNING_RATE = {LEARNING_RATE}")
+            # print(f"LEARNING_RATE_DECAY_STEPS = {LEARNING_RATE_DECAY_STEPS}")
+            # print(f"MODEL_NAME = {MODEL_NAME}")
+            # print(f"PRETRAINED = {PRETRAINED}")
+            # print(f"FREEZE = {FREEZE}")
+            # print(f"EPOCHS = {EPOCHS}")
+            # print(f"BATCH_SIZE = {BATCH_SIZE}")
+            # print(f"N_LABELS = {N_LABELS}")
+            # print(f"OPTIMIZERS = {OPTIMIZERS}")
+            # print(f"CHECKPOINT_TIMESTAMP = {CHECKPOINT_TIMESTAMP}")
+            # print(f"CHECKPOINT_TEST = {CHECKPOINT_TEST}")
+            # print(f"CHECKPOINT_TEST_TARGET = {CHECKPOINT_TEST_TARGET}")
+            # print("============================================")
 
-            M.train_cnn(MODEL_NAME, PRETRAINED, FREEZE, EPOCHS, BATCH_SIZE, N_LABELS, OPTIMIZERS, PATH_TO_IMAGES, LEARNING_RATE, WEIGHT_DECAY, LEARNING_RATE_DECAY_STEPS, DEBUG_MODE, CHECKPOINT_TIMESTAMP, DISTILLATE_WITH)
+            # N.test_cnn(densenet, every_densenet, BATCH_SIZE, N_LABELS, PATH_TO_IMAGES, DEBUG_MODE, CHECKPOINT_TEST, CHECKPOINT_TEST_TARGET)
+
+            # M.train_cnn(MODEL_NAME, PRETRAINED, FREEZE, EPOCHS, BATCH_SIZE, N_LABELS, OPTIMIZERS, PATH_TO_IMAGES, LEARNING_RATE, WEIGHT_DECAY, LEARNING_RATE_DECAY_STEPS, DEBUG_MODE, CHECKPOINT_TIMESTAMP, DISTILLATE_WITH)
