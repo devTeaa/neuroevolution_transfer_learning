@@ -42,7 +42,7 @@ PRETRAINED = True
 # CHECKPOINT_TIMESTAMP = '1560599355'
 CHECKPOINT_TIMESTAMP = ''
 CHECKPOINT_TEST = '1564583958'
-CHECKPOINT_TEST_TARGET = '1564680117'
+CHECKPOINT_TEST_TARGET = ''
 
 # DISTILLATE_WITH = '1560599355'
 DISTILLATE_WITH = ''
@@ -50,7 +50,17 @@ DISTILLATE_WITH = ''
 # alexnet, va_alexnet, reva_alexnet, fp_alexnet, startva_alexnet,
 # densenet, va_densenet, reva_densenet, fp_densenet, start_densenet, every_densenet, sedensenet, triplelossdensenet
 # resnet, VGG, VGG_Bn
-N.test_cnn(densenet, every_densenet, BATCH_SIZE, N_LABELS, PATH_TO_IMAGES, DEBUG_MODE, CHECKPOINT_TEST, CHECKPOINT_TEST_TARGET)
+for _, item in enumerate([ 
+                          [densenet, '1564583958'],
+                          [alexnet, '1564677458'],
+                          [sedensenet, '1564680042'],
+                          [every_densenet, '1564680117'],
+                          [fp_densenet, '1564683135'],
+                        ]):
+    for i in range(1):
+        N.test_cnn(item[0], densenet, BATCH_SIZE, N_LABELS, PATH_TO_IMAGES, DEBUG_MODE, item[1], CHECKPOINT_TEST_TARGET)
+
+# for i in range(5):
 
 # for MODEL_NAME in [every_densenet]:
     # for OPTIMIZERS in [SGD]:
